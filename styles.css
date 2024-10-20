@@ -12,16 +12,12 @@ body {
     line-height: 1.6;
 }
 
-/* Remove the gap by reducing body and header padding */
-body {
-    margin: 0;
-}
-
+/* Header */
 .header {
-    padding: 10px 40px; /* Reduce padding to make the header smaller */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 40px;
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -30,7 +26,7 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #111;
     text-transform: uppercase;
@@ -40,42 +36,58 @@ body {
     text-decoration: none;
     color: #333;
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     transition: color 0.3s ease;
 }
 
 .menu a:hover {
-    color: #007bff;
+    color: #d7263d; /* Red accent color on hover */
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #ffd700; /* Gold color for hover */
 }
 
 /* Hero Section */
 .hero-section {
-    height: 100vh; /* Full-screen hero */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: #fff;
     padding: 0 20px;
-    margin-top: 0; /* Remove any additional margin at the top */
 }
 
 .hero-section h1 {
-    font-size: 3.5rem; /* Reduced size slightly */
+    font-size: 4rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .hero-section p {
-    font-size: 1.4rem; /* Slightly smaller text */
+    font-size: 1.4rem;
     margin-bottom: 40px;
 }
 
 .hero-section .primary-btn {
-    background-color: #007bff;
+    background-color: #d7263d; /* Red button */
     color: white;
-    padding: 12px 35px; /* Adjusted padding for smaller button */
+    padding: 12px 35px;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -85,18 +97,18 @@ body {
 }
 
 .hero-section .primary-btn:hover {
-    background-color: #0056b3;
+    background-color: #b71c1c; /* Darker red on hover */
 }
 
 /* Video Section */
 .video-section {
-    padding: 60px 20px; /* Reduced padding */
+    padding: 60px 20px;
     background-color: #f8f9fa;
     text-align: center;
 }
 
 .video-section h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 30px;
     color: #111;
 }
@@ -109,7 +121,7 @@ body {
 }
 
 .about-section h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #111;
     margin-bottom: 20px;
 }
@@ -123,9 +135,9 @@ body {
 }
 
 .about-section .secondary-btn {
-    background-color: #6c757d;
+    background-color: #ffd700; /* Gold button */
     color: white;
-    padding: 12px 35px; /* Reduced padding for smaller button */
+    padding: 12px 35px;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -135,18 +147,18 @@ body {
 }
 
 .about-section .secondary-btn:hover {
-    background-color: #5a6268;
+    background-color: #daa520; /* Darker gold on hover */
 }
 
 /* Personal Training Programs Section */
 .programs-section {
-    padding: 60px 20px; /* Reduced padding */
+    padding: 60px 20px;
     background-color: #f8f9fa;
     text-align: center;
 }
 
 .programs-section h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #111;
     margin-bottom: 20px;
 }
@@ -160,9 +172,9 @@ body {
 }
 
 .programs-section .primary-btn {
-    background-color: #007bff;
+    background-color: #d7263d; /* Red button */
     color: white;
-    padding: 12px 35px; /* Adjusted padding */
+    padding: 12px 35px;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -172,7 +184,7 @@ body {
 }
 
 .programs-section .primary-btn:hover {
-    background-color: #0056b3;
+    background-color: #b71c1c; /* Darker red on hover */
 }
 
 /* Footer */
@@ -185,18 +197,5 @@ body {
 
 .footer .social-links a {
     text-decoration: none;
-    color: #007bff;
-    margin: 0 10px;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-.footer .social-links a:hover {
-    color: #0056b3;
-}
-
-.footer p {
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #ccc;
-}
+    color: #ffd700; /* Gold for social icons */
+    margin:
