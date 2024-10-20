@@ -100,6 +100,22 @@ body {
     color: white;
 }
 
+/* Button for Form Links (Google Form) */
+.form-btn {
+    background-color: #1c87c9;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.form-btn:hover {
+    background-color: #145a7c;
+}
+
 /* Video Section */
 .video-section {
     padding: 50px 0;
