@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -32,10 +32,15 @@ body {
     text-transform: uppercase;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .menu a {
     text-decoration: none;
     color: #333;
-    margin-left: 30px;
     font-size: 1.1rem;
     transition: color 0.3s ease;
 }
@@ -86,7 +91,7 @@ body {
 
 .hero-section h2 {
     font-size: 2.5rem;
-    color: #ffd700; /* Gold color */
+    color: #000; /* Changed to black */
     margin-bottom: 20px;
 }
 
@@ -196,4 +201,9 @@ body {
 /* Footer */
 .footer {
     padding: 40px 20px;
-    background-color:
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.footer
