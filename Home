@@ -12,8 +12,8 @@
         <div class="navbar">
             <div class="logo">Michael Labs</div>
             <div class="menu">
-                <a href="#about">About Me</a>
-                <a href="#programs">Programs</a>
+                <a href="about.html">About Me</a>
+                <a href="programs.html">Programs</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
@@ -28,22 +28,6 @@
     <section class="video-section">
         <h2>Featured Video</h2>
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/zZayXmxcwvk" frameborder="0" allowfullscreen></iframe>
-    </section>
-
-    <!-- About Me Section with Google Form Link -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>I’m a 28-year-old ACE Certified Personal Trainer with over 10 years of experience working with clients in person. My approach to training is centered on strength training, mobility, and functional fitness, all backed by a focus on nutrition, particularly protein intake.</p>
-        <p>Interested in learning more or working with me? Click below to get started:</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcfBRInvbRFxkYycUoIQt99-vQgzaD_J6xLNaD3g598xtX3g/viewform?usp=sf_link" class="btn secondary-btn" target="_blank">Get Started</a>
-    </section>
-
-    <!-- Personal Training Programs Section with Google Form Link -->
-    <section id="programs" class="programs-section">
-        <h2>Personal Training Programs</h2>
-        <p>I offer personalized training programs designed to meet your specific fitness goals, whether you're looking to build strength, lose weight, or improve overall fitness.</p>
-        <p>Click the button below to fill out the form and get started on your journey with me!</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcfBRInvbRFxkYycUoIQt99-vQgzaD_J6xLNaD3g598xtX3g/viewform?usp=sf_link" class="btn primary-btn" target="_blank">Sign Up Now</a>
     </section>
 
     <!-- Footer Section -->
