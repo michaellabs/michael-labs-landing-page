@@ -84,6 +84,12 @@ body {
     margin-bottom: 40px;
 }
 
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: #ffd700; /* Gold color */
+    margin-bottom: 20px;
+}
+
 .hero-section .primary-btn {
     background-color: #d7263d; /* Red button */
     color: white;
@@ -190,12 +196,4 @@ body {
 /* Footer */
 .footer {
     padding: 40px 20px;
-    background-color: #111;
-    color: white;
-    text-align: center;
-}
-
-.footer .social-links a {
-    text-decoration: none;
-    color: #ffd700; /* Gold for social icons */
-    margin:
+    background-color:
