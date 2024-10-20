@@ -10,11 +10,16 @@ body {
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
     background-color: #fff;
+    background-image: url('graffiti-background.jpg'); /* Graffiti artwork */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.1;
 }
 
 /* Header */
 .header {
-    background-color: #f8f9fa;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 60px 20px;
     text-align: center;
     position: relative;
@@ -83,70 +88,6 @@ body {
     background-color: #0056b3;
 }
 
-/* Video Section */
-.video-section {
-    padding: 60px 20px;
-    background-color: #f8f9fa;
-    text-align: center;
-}
-
-.video-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #111;
-}
-
-/* About Me Section */
-.about-section {
-    padding: 60px 20px;
-}
-
-.about-section h2 {
-    font-size: 2.5rem;
-    color: #111;
-    margin-bottom: 20px;
-}
-
-.about-section p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.about-section .secondary-btn {
-    background-color: #6c757d;
-    color: white;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.about-section .secondary-btn:hover {
-    background-color: #5a6268;
-}
-
-/* Personal Training Programs Section */
-.programs-section {
-    padding: 60px 20px;
-    background-color: #f8f9fa;
-}
-
-.programs-section h2 {
-    font-size: 2.5rem;
-    color: #111;
-    margin-bottom: 20px;
-}
-
-.programs-section p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
 /* Footer */
 .footer {
     padding: 40px 20px;
@@ -163,11 +104,4 @@ body {
 }
 
 .footer .social-links a:hover {
-    color: #0056b3;
-}
-
-.footer p {
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #ccc;
-}
+   
