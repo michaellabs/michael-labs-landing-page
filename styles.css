@@ -15,6 +15,7 @@ body {
     background-color: #1c1c1c;
     color: white;
     padding: 50px 0;
+    position: relative;
 }
 
 .header h1 {
@@ -26,6 +27,60 @@ body {
     margin: 20px 0;
 }
 
+/* Navigation Bar */
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+/* Links Inside the Dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change Color on Hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the Button When Hovered */
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+/* Call-to-action buttons */
 .cta-buttons .btn {
     display: inline-block;
     margin: 15px;
@@ -45,6 +100,7 @@ body {
     color: white;
 }
 
+/* Video Section */
 .video-section {
     padding: 50px 0;
 }
@@ -54,6 +110,29 @@ body {
     font-size: 1.8rem;
 }
 
+/* About Me Section */
+.about-section {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Personal Training Programs Section */
+.programs-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.programs-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: white;
